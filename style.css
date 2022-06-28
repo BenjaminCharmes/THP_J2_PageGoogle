@@ -1,0 +1,89 @@
+body, html
+{
+    height: auto;
+    width: auto;
+    display: block;
+    background-color: #202124;
+    color: white;
+}
+
+.border-flex 
+{
+    border: 2px solid red;
+}
+
+#header
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#section1
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer1
+{    
+    height: auto;
+    width: auto;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#footer2
+{    
+    height: auto;
+    width: auto;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+:any-link
+{
+    color: grey;
+    text-decoration: none;
+}
+
+  
